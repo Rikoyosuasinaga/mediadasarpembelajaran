@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1000051372661",
+    "firebase_url": "https://mediadasarpembelajaran.firebaseio.com",
+    "project_id": "mediadasarpembelajaran",
+    "storage_bucket": "mediadasarpembelajaran.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1000051372661:android:6de21bf56fa1580c6f3e3c",
+        "android_client_info": {
+          "package_name": "com.teknokrat.mobile2019.ti17a17313018.mediadasarpembelajaran"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1000051372661-52kc91ca9fujngnk9bmcbkvvd3st37d5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.teknokrat.mobile2019.ti17a17313018.mediadasarpembelajaran",
+            "certificate_hash": "4b71821474c5aa2d7b7523bdc9935c964ba21daf"
+          }
+        },
+        {
+          "client_id": "1000051372661-o5t5n7n9ltldcvpclgtkvp0fmq3crcb3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD2wBJOHVznWp-Sw-YWly2KkoYid4rRZKs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1000051372661-o5t5n7n9ltldcvpclgtkvp0fmq3crcb3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

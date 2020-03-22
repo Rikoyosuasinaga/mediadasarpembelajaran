@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".angka"
+    android:background="@drawable/hellokitty">
+
+    <ImageView
+        android:id="@+id/satu"
+        android:layout_width="93dp"
+        android:layout_height="117dp"
+        android:src="@drawable/satu"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.05"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.063"></ImageView>
+
+    <ImageView
+        android:id="@+id/dua"
+        android:layout_width="93dp"
+        android:layout_height="117dp"
+        android:src="@drawable/dua"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/satu"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.063"></ImageView>
+
+    <ImageView
+        android:id="@+id/tiga"
+        android:layout_width="93dp"
+        android:layout_height="117dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginRight="4dp"
+        android:src="@drawable/tiga"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/dua"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.063"></ImageView>
+
+    <ImageView
+        android:id="@+id/empat"
+        android:layout_width="93dp"
+        android:layout_height="117dp"
+        android:src="@drawable/empat"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/tiga"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.063"></ImageView>
+
+    <ImageView
+        android:id="@+id/lima"
+        android:layout_width="93dp"
+        android:layout_height="117dp"
+        android:src="@drawable/lima"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.05"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/satu"
+        app:layout_constraintVertical_bias="0.242"></ImageView>
+
+    <ImageView
+        android:id="@+id/enam"
+        android:layout_width="93dp"
+        android:layout_height="117dp"
+        android:src="@drawable/enam"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/lima"
+        app:layout_constraintTop_toBottomOf="@+id/dua"
+        app:layout_constraintVertical_bias="0.242"></ImageView>
+
+    <ImageView
+        android:id="@+id/tujuh"
+        android:layout_width="93dp"
+        android:layout_height="117dp"
+        android:src="@drawable/tujuh"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/enam"
+        app:layout_constraintTop_toBottomOf="@+id/tiga"
+        app:layout_constraintVertical_bias="0.244"></ImageView>
+
+    <ImageView
+        android:id="@+id/delapan"
+        android:layout_width="93dp"
+        android:layout_height="117dp"
+        android:src="@drawable/delapan"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.304"
+        app:layout_constraintStart_toEndOf="@+id/tujuh"
+        app:layout_constraintTop_toBottomOf="@+id/empat"
+        app:layout_constraintVertical_bias="0.242"></ImageView>
+
+    <ImageView
+        android:id="@+id/sembilan"
+        android:layout_width="93dp"
+        android:layout_height="117dp"
+        android:src="@drawable/sembilan"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.05"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lima"
+        app:layout_constraintVertical_bias="0.36"></ImageView>
+
+    <ImageView
+        android:id="@+id/sepuluh"
+        android:layout_width="93dp"
+        android:layout_height="117dp"
+        android:src="@drawable/sepuluh"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.478"
+        app:layout_constraintStart_toEndOf="@+id/sembilan"
+        app:layout_constraintTop_toBottomOf="@+id/tujuh"
+        app:layout_constraintVertical_bias="0.36"></ImageView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

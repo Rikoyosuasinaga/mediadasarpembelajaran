@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Media Pembelajaran</string>
+    <string name="btn_login">LOGIN</string>
+    <string name="btn_register">REGISTER</string>
+    <string name="btn_history">History</string>
+    <string name="btn_member">Member</string>
+    <string name="btn_goals">Goals</string>
+    <string name="title_activity_maps">Map</string>
+</resources>
